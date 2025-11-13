@@ -344,7 +344,7 @@ public class FillinService {
 					opCountList.add(opCount);
 				});
 			});
-			// voMap 是之前先整理過的 Map<問題編號, QuestionCountVo>，所以所有選擇題都會有
+			/* voMap 是之前先整理過的 Map<問題編號, QuestionCountVo>，所以所有選擇題都會有*/
 			QuestionCountVo vo = voMap.get(questionId);
 			vo.setOptionsCountList(opCountList); 
 			voList.add(vo);
